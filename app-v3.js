@@ -80,7 +80,7 @@ function render(path) {
     window.scroll_status = {
       // 滚动事件是否已经绑定
       event_bound: false,
-      // "滚动到底部，正在加载更多数据" 事件的锁
+      // "滚动到底部，正在加载更多数据" 事件锁
       loading_lock: false
     };
     render_search_result_list()
